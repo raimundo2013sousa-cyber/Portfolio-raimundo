@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+  background-color: #fff9e6; /* Fundo amarelo bem claro */
+}
+
+header {
+  background: #f1c40f; /* Amarelo principal */
+  color: #2c3e50;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card-projeto {
+  background: #fffdf2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-top: 5px solid #f1c40f; /* Destaque amarelo */
+}
+
+.card-projeto h3 {
+  margin-top: 0;
+  color: #b7950b; /* Amarelo mais escuro */
+}
+
+.card-projeto a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f1c40f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card-projeto a:hover {
+  text-decoration: underline;
+  color: #d4ac0d;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1c40f;
+  color: #2c3e50;
+  margin-top: 40px;
+}
